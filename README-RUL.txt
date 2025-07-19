@@ -3,10 +3,13 @@ OTHERWISE MANUALLY SPECIFY THE FILEPATH IF READING FROM A DIFFERENT DIRECTORY
 --------------------------------------------------------------------------------------------------------------------------
 Dataset.py
 
-To run this program from the current working directory.
-1. Open the terminal
-2. type 'python Dataset.py' and press enter
-3. enter battery ID
+To run this program from the current working directory
+1. Open the file with the code
+2. Look for a list of battery ID's, and add or delete ID's how you want
+3. Save the file
+4. Open the terminal
+5. type 'python Dataset.py' and press enter
+6. enter battery ID
 
 This will read the NASA .mat file and converts it into a .csv
 
@@ -23,8 +26,12 @@ This will merge all the specified NASA .csv files into one data frame
 Balanced.py
 
 To run this program from the current working directory.
-1. Open the terminal
-2. type 'python Balanced.py' and press enter
+
+1. Open this file with the code
+2. Specify the merged batteries .csv file
+3. Save the program
+4. Open the terminal
+5. type 'python Balanced.py' and press enter
 
 This is meant to take in merged NASA dataset for different batteries, clean it and balance the number of data points for different batteries to be equal to the battery type that has the least number of points. Meant to be used for EDA, training and testing.
 
@@ -63,10 +70,19 @@ Regression.py
 
 To run this program from the current working directory.
 1. Specify parameters in line 117.
-2. type 'python Regression.py' and press enter
+2. Save the program.
+3. type 'python Regression.py' and press enter
 
 This will load a trained regression model or use the training data specified in line 105.
 If you want to train a new model with new data, specify the filename in 105 and run again.
+
+--------------------------------------------------------------------------------------------------------------------------
+XXGBoost.py
+
+To run this program from the current working directory.
+1. Specify parameters in line 202-204.
+2. Save the program
+3. type 'python XXGBoost.py' and press enter
 
 --------------------------------------------------------------------------------------------------------------------------
 CTree.R, EDA.R, XG-MLR.R
