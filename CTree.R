@@ -1,3 +1,6 @@
+# Program that fits a classififcation tree on NASA data
+# BY Kenneth Kamogelo Baloyi
+
 library(rpart)
 library(rpart.plot)
 
