@@ -3,6 +3,7 @@
     Downsamples other battery ID's to that least number of sample points.
 """
 # Author: Kenneth Kamogelo Baloyi
+# Date: 08 July 2025
 
 import pandas as pd
 
