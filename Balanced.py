@@ -1,3 +1,9 @@
+""" Program the reads in merged NASA battery health data
+    and finds the battery ID with the least number of sample points
+    Downsamples other battery ID's to that least number of sample points.
+"""
+# Author: Kenneth Kamogelo Baloyi
+
 import pandas as pd
 
 # Load the original cleaned dataset
