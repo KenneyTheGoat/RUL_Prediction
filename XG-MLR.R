@@ -1,3 +1,6 @@
+# Program that implements two models of capacity as the resposnse variable.
+# XGBoost and Multiple Linear Regression.
+
 # Install and load required packages
 install.packages("xgboost")
 install.packages("Metrics")
