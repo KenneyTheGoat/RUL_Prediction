@@ -1,4 +1,4 @@
-# Program that implements decision rules from a classificatio tree
+# Program that implements decision rules from a classification tree
 # Author: Kenneth Kamogelo Baloyi
 # Date: 11 July 2025
 
